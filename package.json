@@ -1,0 +1,49 @@
+{
+	"name": "@rbxts/math",
+	"version": "1.0.0",
+	"description": "A port of RobloxianDemo's Math module.",
+	"main": "src/Math/init.luau",
+	"types": "src/Math/index.d.ts",
+	"files": [
+		"src/Math",
+		"Packages"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1."
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rbxts-libraries/rbxts-math.git"
+	},
+	"keywords": [
+		"math",
+		"mathematics",
+		"roblox",
+		"roblox-typescript",
+		"roblox-ts",
+		"service",
+		"utility"
+	],
+	"author": {
+		"name": "RobloxianDemo",
+		"url": "https://github.com/RobloxianDemo"
+	},
+	"contributors": [
+		{
+			"name": "RobloxianDemo",
+			"url": "https://github.com/RobloxianDemo"
+		}
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/rbxts-libraries/rbxts-math/issues"
+	},
+	"homepage": "https://github.com/rbxts-libraries/rbxts-math/README.md",
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@rbxts/compiler-types": "^2.1.0-types.1",
+		"@rbxts/types": "^1.0.688"
+	}
+}
