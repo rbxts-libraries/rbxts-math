@@ -182,7 +182,7 @@ Part.Position = new Vector3(0, 5, 0);
 Part.Size = new Vector3(5, 1, 5);
 Part.Parent = Workspace;
 
-const partPositionClamped = Math.LerpClamp(Part.Position.X + 1, Part.Position.Y + 1, Part.Position.Z + 1);
+const partPositionClamped = LerpClamp(Part.Position.X + 1, Part.Position.Y + 1, Part.Position.Z + 1);
 
 print(partPositionClamped);
 ```
