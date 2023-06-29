@@ -173,7 +173,7 @@ Return belphegor's prime number.
 import { Workspace } from "@rbxts/services";
 
 // Modules
-import { Math } from "@rbxts/math";
+import { LerpClamp } from "@rbxts/math";
 
 // Functions
 const Part = new Instance("Part");
